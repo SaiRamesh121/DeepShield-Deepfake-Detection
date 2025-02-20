@@ -1,0 +1,15 @@
+DeepShield-Deepfake-Detection/
+│── dataset/                 # Training data (if public)
+│── models/                  # Trained models & weights
+│── src/                     # Source code for detection
+│   ├── video_detection.py   # Deepfake video analysis
+│   ├── image_detection.py   # Deepfake image detection
+│   ├── audio_detection.py   # Deepfake audio analysis
+│   ├── utils.py             # Helper functions
+│── notebooks/               # Jupyter notebooks for research
+│── docs/                    # Documentation files
+│── results/                 # Example detections
+│── README.md                # Project overview & instructions
+│── requirements.txt         # Dependencies (TensorFlow, OpenCV, etc.)
+│── .gitignore               # Ignore unnecessary files
+│── LICENSE                  # Open-source license (MIT, Apache, etc.)
